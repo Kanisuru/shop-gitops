@@ -1,0 +1,6 @@
+replicaCount: 2
+image:
+  repository: acrkcna6346.azurecr.io/shop/api
+  tag: "manual-1"
+env:
+  APP_VERSION: "manual-1"

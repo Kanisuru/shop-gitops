@@ -1,0 +1,10 @@
+replicaCount: 2
+image:
+  repository: acrkcna6346.azurecr.io/shop/frontend
+  tag: "manual-1"
+ingress:
+  enabled: true
+  className: nginx
+  host: frontend.local
+env:
+  API_URL: "http://api.shop.svc.cluster.local:8080"

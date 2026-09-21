@@ -1,0 +1,6 @@
+replicaCount: 1
+image:
+  repository: acrkcna6346.azurecr.io/shop/worker
+  tag: "manual-1"
+env:
+  API_URL: "http://api.shop.svc.cluster.local:8080"
