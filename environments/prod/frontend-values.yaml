@@ -1,7 +1,7 @@
 replicaCount: 2
 image:
   repository: acrkcna6346.azurecr.io/shop/frontend
-  tag: "4bdd7f23894c645bcb30da77c4c45c720bc9a079"
+  tag: "does-not-exist-deadbeef"
 ingress:
   enabled: true
   className: nginx
