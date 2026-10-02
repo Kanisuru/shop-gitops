@@ -1,7 +1,7 @@
 replicaCount: 2
 image:
   repository: acrkcna6346.azurecr.io/shop/frontend
-  tag: "1602c8070bad872ac0d7b4c014d327836be23815"
+  tag: "4bdd7f23894c645bcb30da77c4c45c720bc9a079"
 ingress:
   enabled: true
   className: nginx
